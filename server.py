@@ -1,6 +1,16 @@
 # Developers: Meyer Montagner, Pablo Villalba
-# Scrum Manager: Damaso
+# Scrum Manager: Dámaso González Pino
 # Programa que inicia un servidor usado como práctica de Scrum.
+
+"""
+Conseguimos tener todos los puntos funcionales a tiempo para la última reunión a pesar de las dificultades que nos llevaron a no completar todos los puntos en los diferentes hitos.
+
+La parte 1a la realizó Meyer donde en un principio solo faltaba meterlo en json que consiguió terminar a tiempo.
+El punto 2a la realizó Pablo, quien consiguió separarlo en párrafos pero sin utilizar NLTK. Consiguió que funcione de otra manera porque daba problemas al importar la librería. Finalmente consiguió que todo funcione como pedía este apartado.
+El punto 3a (pasar de string a lista que solo contenga minúsculas) lo hizo Meyer al cual se le complicó un poco y le dimos apoyo intentando buscar la mejor solución que consiguió terminar justo a tiempo para la última reunión con el cliente.
+El apartado 4a lo realizó Pablo sin demasiada dificultad, tuvo que devolver una lista con las cadenas ordenar alfabéticamente. 
+Lo que yo (Dámaso) hice es ir buscando las posibles soluciones de los puntos 3a y 4a, ayudarlos en los puntos en los que se atascaron y la comunicación con el cliente.
+"""
 
 
 from flask import Flask, jsonify, request
