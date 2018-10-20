@@ -6,8 +6,8 @@ import requests
 
 
 """ Acceso a endpoint /1a/. 
-Recibe un número como parámetro.
-Retorna un JSON con el cuadrado del número. """
+Recibe desde la ruta una direccion web
+    Retorna  el texto de la direccion"""
 result1 = requests.get("http://127.0.0.1:5000/1a/?url=https://en.wikipedia.org/wiki/Interdisciplinarity")  # type: requests.Response
 print(result1.text)
 
@@ -20,8 +20,8 @@ print(result2.text)
 
 
 """ Acceso a endpoint /3a/. 
-Recibe un número como parámetro.
-Retorna un JSON con el cuadrado del número. """
+Recibe desde la ruta una lista de listas con texto
+    Retorna una lista de listas con todo el texto en minuscula"""
 result3 = requests.get("http://127.0.0.1:5000/3a/?value=[[%27HOLA%27],[%27BOBO%27]]")  # type: requests.Response
 print(result3.text)
 
